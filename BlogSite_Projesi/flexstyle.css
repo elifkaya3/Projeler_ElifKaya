@@ -1,0 +1,11 @@
+body{
+ background-color: bisque;
+font-size: large; 
+background-image: url('https://i.pinimg.com/200x150/83/2c/03/832c03c58068a60a1f9c3015ef9f7548.jpg');
+}
+.flexpng{
+    width: 100%;
+}
+ul{
+    list-style-type: disc;
+}

@@ -1,0 +1,125 @@
+.navbar {
+    background-color: rgb(255, 180, 180) !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+a{
+    color: white;   
+    text-decoration: none;
+}
+.main-content {
+    background-color: rgb(255, 180, 180) !important;
+
+}
+.slider{
+    position: relative;
+    width: 400px;
+     height:500px ;
+     margin: auto;
+     overflow: hidden;
+}
+.slider-content{
+    position: absolute;
+    width: 400px;
+    left: 0;
+    animation: slide 20s infinite;
+}
+.slider-content:hover{
+    animation-play-state: paused;
+}
+.slider-myfade{
+    /* width: 20%; */
+    float: left;
+}
+body{
+    justify-content: center;
+    position: relative;
+    background-color:lightgray ;
+}
+
+
+  /*.slider-content .slide{
+    /* display: none;  */
+    /* :responsive */
+    /*display:block;
+    justify-content:center;
+    align-items: center;    
+    width:400px;
+    margin:0 auto;
+    height:500px;*/
+ /*}*/
+
+ /*.slider-content .slide img{
+    width: ;
+} */
+
+ .slider-content .prevSlide, 
+ .slider-content .nextSlide{
+    cursor: pointer;
+    display:block;
+    justify-content:center;
+    align-items: center;    
+    margin:0 auto;
+    position: absolute;
+    top:25%;
+    padding: 15px;
+    color: rgb(146, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    width: 725px;
+    transition: 0.6s ease;
+}
+/* .slider-content .prevSlide:hover,
+.slider-content .nextSlide:hover{
+    background-color: rgba(209, 195, 195, 0.6);
+    text-decoration: none;
+} 
+ .slider-content .prevSlide{
+    border-radius: 0px 3px 3px 0px;
+    top: 400px;
+    left: 0px;
+}
+ .slider-content .nextSlide{
+    top: 400px;
+    right: 0px;
+    border-radius:3px  0px  0px 3px;
+} */
+
+ /* .dots{
+    position: absolute;
+    top: 600px;
+    align-items: center;
+}
+.dots .dot:hover{
+    background-color: rgb(110, 110, 255);
+    display: block;
+}
+
+.active{
+    background-color: rgb(207, 0, 121) !important;
+} */
+
+@keyframes slide{
+    0%{
+        transform:tranlateX(0px)
+    } 10%{
+        transform:tranlateX(-500px)
+    } 20%{
+        transform:tranlateX(-1000px)
+    } 30%{
+        transform:tranlateX(-1000px)
+    }50%{
+        transform:tranlateX(-1500px)
+    } 60%{
+        transform:tranlateX(-1500px)
+    }
+    70%{
+        transform:tranlateX(-2000px)
+    } 80%{
+        transform:tranlateX(-2000px)
+    }
+    100%{
+        transform:tranlateX(0px)
+    }
+    
+}

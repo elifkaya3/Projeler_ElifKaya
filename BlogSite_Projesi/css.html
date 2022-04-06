@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Document</title>
+</head>
+<body>
+    <div>
+        <h2>CSS Flex Yapıları</h2>
+
+        <div>
+            <img src="flex.PNG" alt="" class="flexpng">
+
+            <h4>Flex neden kullanılır?</h4>
+            <ul>
+                <li>Flex, birden fazla Sütunu(column) ve içerik satırını(row) ana kapsayıcı boyunca otomatik olarak
+                    boyutlandırmak için kullanılan bir dizi kuraldır. </li>
+                <li>Flex yapısı tasarımını yapacağımız siteyi responsive yani web sitesine uyumlu tasarım yapmayı
+                    kolaylaştırır.</li>
+                <li>İçine koyacağımız ögelerin dikey ortalamasını yapmak için kolaylık sağlar.</li>
+                <li>Genişlik ve yükseklik ayarlarını yapabiliriz.</li>
+                <li>Flex yapısını kullanmaya başlamak için diplay özelliğine flex değerini atamalıyız.</li>
+                <h4>Flex özellikleri</h4>
+                <ol><b>
+                        <li>justify-content Özelliği</li>
+                    </b>
+                    justify-content Özelliği içindeki elemanların X ekseninde yani yatayda hizalamaya yarar.
+                <ul>
+
+                    <li><b>flex-start:</b>Öğeleri flexbox container’ın sol tarafına hizalar.</li>
+                    <li><b>flex-end:</b>Öğeleri flexbox container’ın sağ tarafına hizalar.</li>
+                    <li><b>center:</b>Öğeleri flexbox container’ın ortasına hizalar.</li>
+                    <li><b>space-between:</b> Öğeler eşit aralıklarla yatay şekilde yayılır</li>
+                    <li><b>space-around:</b>Öğeler etraflarında eşit aralıklar olacak şekilde yatay şekilde yayılır</li>
+                </ul>
+                <img src="justify-content.PNG" alt=""><br>
+
+                <b>
+                        <li>align-items Özelliği</li>
+                    </b>
+                    align-items Özelliği içindeki elemanların Y ekseninde yani dikeyde hizalamaya yarar
+                <ul>
+                    <li><b>flex-start:</b>Öğeleri flexbox container’ın tepesine hizalar</li>
+                    <li><b>flex-end:</b>Öğeleri flexbox container’ın aşağısına hizalar</li>
+                    <li><b>center:</b>Öğeleri flexbox container’ın dikey ortasına hizalar</li>
+                    <li><b>baseline:</b> Öğeleri flexbox container’ın yazı referans çizgisine(baseline) hizalar</li>
+                    <li><b>stretch:</b>Öğeler flexbox container boyunca uzarlar</li>
+                </ul><img src="align-items.PNG" alt=""><br>
+
+                <b>
+                        <li>flex-direction Özelliği</li>
+                    </b>
+                    flex-direction özelliği öğelerin hangi yönde yerleştireleceğini belirler. 
+                <ul>
+                    <li><b>row:</b> Öğeler yazı yönü ile aynı yönde yerleştirilir.</li>
+                    <li><b>row-reverse:</b> Öğeler yazı yönünün tersi yönünde yerleştirilir.</li>
+                    <li><b>column:</b>Öğeler yukarıdan aşağıya doğru yerleştirilir.</li>
+                    <li><b>column-reverse:</b> Öğeler aşağıdan yukarıya doğru yerleştirilir.</li>
+                </ul><img src="flex-direction.PNG" alt=""><br>
+
+                <b><li>flex-wrap Özelliği</li></b>
+                  flex-wrap özelliği birden fazla satırda gösterilecek öğelerin nasıl bir davranış sergileyeceğini belirlemek için kullanılır. 
+                <ul>
+                    <li><b>nowrap:</b>Tüm öğeler tek satıra sığar.</li>
+                    <li><b>wrap:</b>Öğeler satırlara bölünür.</li>
+                    <li><b>wrap-reverse:</b>Öğeler satırlara ters sırada bölünür.</li>
+                </ul><img src="flex-wrap.PNG" alt=""><br>
+
+                <b><li>align-content Özelliği</li></b>
+                align-content kuralı ile satırları birbirinden ayırabilirsiniz. 
+                <ul>
+                    <li><b>flex-start:</b>Satırlar flex container’ın tepesinde toplanır.</li>
+                    <li><b>flex-end:</b>Satırlar flex container’ın aşağısında toplanır.</li>
+                    <li><b>center:</b>Satırlar flex container’ın dikey ortasında toplanır.</li>
+                    <li><b>space-between:</b>Satırlar aralarında eşit boşluk kalacak şekilde yayılırlar.</li>
+                    <li><b>space-around:</b>Satırlar etraflarında eşit boşluk kalacak şekilde yayılırlar.</li>
+                    <li><b>stretch:</b>Satırlar flex container’ı kaplamak için uzarlar.</li>
+                </ul><img src="align-content.PNG" alt="">
+            </ol>
+            </ul>
+               
+        </div>
+    </div>
+</body>
+</html>
