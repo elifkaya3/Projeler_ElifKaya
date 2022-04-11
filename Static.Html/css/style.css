@@ -141,10 +141,8 @@ div .title {
     padding-bottom: 5px;
     position: relative;
 }
-.icon-dots-orange {
-    background-image: url(/assets/web/icons/dots-orange.svg);
-    width: 45px;
-    height: 12px;
+.fa-ellipsis{
+    color: #f06730;
 }
 .icon-dots-orange, .icon-popcast-circle-orange {
     display: inline-block!important;
@@ -158,4 +156,18 @@ div.title>.name, div.title>.subtitle {
 }div.title>.name {
     font-weight: 600;
     font-size: 1.125rem;
+}
+.sld2{
+    width: 830px;
+    height: 480px;
+}
+.authors_wrapper>.swiper-container>.swiper-wrapper>a.swiper-slide>img {
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+}img {
+    max-width: 100%;
+}
+.swiper-slide, .swiper-wrapper {
+    height: auto;
 }
