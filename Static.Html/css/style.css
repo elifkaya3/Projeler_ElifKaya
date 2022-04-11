@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+header {
+    height: 70px;
+    background-color: aqua;
+}
+
+.ustslide {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.sld1 {
+    float: left;
+    margin: 15px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.kartslide {
+    float: left;
+    margin: 15px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.fab {
+    padding: 8px;
+    font-size: 30px;
+    width: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fab:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook-f {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-pinterest {
+    color: white;
+}
+
+.fa-dribbble {
+    color: white;
+}
+
+.ustnav {
+    display: flex;
+    background-color: #212529;
+    justify-content: space-between;
+
+}
+
+.ustnav1 {
+    padding-left: 130px;
+    padding-right: 130px;
+    max-width: 1400px;
+}
+
+.ikon {
+    display: flex;
+    float: right;
+    align-items: flex-end;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #212529;
+}
+
+.footer-titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-titles div {
+    margin-left: 240px;
+}
+
+.lnk {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.lnk a {
+    color: white;
+    font-weight: bold;
+}
+
+.altnav {
+    background-color: #f06730;
+
+}
+
+div .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    border-bottom: 2px solid #969798;
+    margin-top: 0.75rem;
+    padding-bottom: 5px;
+    position: relative;
+}
+.icon-dots-orange {
+    background-image: url(/assets/web/icons/dots-orange.svg);
+    width: 45px;
+    height: 12px;
+}
+.icon-dots-orange, .icon-popcast-circle-orange {
+    display: inline-block!important;
+    padding: 0!important;
+    line-height: 0;
+    background-repeat: no-repeat;
+}
+div.title>.name, div.title>.subtitle {
+    background-color: #fff;
+    margin: 0 0 0 10px;
+}div.title>.name {
+    font-weight: 600;
+    font-size: 1.125rem;
+}
