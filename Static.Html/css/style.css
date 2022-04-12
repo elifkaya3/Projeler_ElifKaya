@@ -88,7 +88,7 @@ header {
     max-width: 1400px;
 }
 
-.ikon {
+.ikonn{
     display: flex;
     float: right;
     align-items: flex-end;
@@ -170,4 +170,11 @@ div.title>.name, div.title>.subtitle {
 }
 .swiper-slide, .swiper-wrapper {
     height: auto;
+}
+.buton {
+    width: 15px;
+    height: 15px; 
+    border-radius: 30px;
+    border:none;   
+    background-color: #d35400;
 }
